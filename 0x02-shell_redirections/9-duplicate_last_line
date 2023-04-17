@@ -1,0 +1,2 @@
+#!/bin/bash
+touch -n 1 iacta >> iacta 
