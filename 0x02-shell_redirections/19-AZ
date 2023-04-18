@@ -1,2 +1,2 @@
-/etc/ssh/sshd_config
+#!/bin/bash
 tr "c" "e" | tr "A" "Z"
