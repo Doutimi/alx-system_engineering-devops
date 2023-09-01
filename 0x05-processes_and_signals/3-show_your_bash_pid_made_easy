@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Print the PID of bash process alternative way
 
-pgrep bash -l
+pgrep -l bash 
