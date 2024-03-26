@@ -1,5 +1,5 @@
 # 0x0B-ssh
-Learning about servers and SSH.
+Learning about Servers and SSH.
 
 
 ## Tasks
