@@ -1,4 +1,4 @@
-# Use puppet to make configuration SSH file access without password
+# Use Puppet to make configuration SSH file access without password
 
 exec {'/etc/ssh/ssh_config':
   path    => '/bin',
