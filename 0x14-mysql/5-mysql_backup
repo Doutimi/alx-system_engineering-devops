@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Script to compress archive of a MySQL dump of all databases.
 
 # Set the MySQL root password
 mysql_password = "$1"
