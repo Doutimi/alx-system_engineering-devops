@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Set the MySQL root password
-mysql_password="$1"
+mysql_password = "$1"
 
 # Get the current date in ddmmyy
-current_date=$(date +'%d-%m-%Y')
+current_date = $(date +'%d-%m-%Y')
 
 # Generate the MySQL dump
 mysqldump -u root -p${mysql_password} --all-databases > backup.sql
