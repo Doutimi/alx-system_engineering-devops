@@ -4,11 +4,8 @@
 # Set the MySQL root password
 mysql_password = "$1"
 
-# Get the current date in ddmmyy
-current_date = $(date +'%d-%m-%Y')
-
 # Generate the MySQL dump
 mysqldump -u root -p${mysql_password} --all-databases > backup.sql
 
 # Create the compressed archive
-tar -czvf "${current_date}".tar.gz backup.sql
+tar -cvzf "$(date +%d-%m-%Y)".tar.gz backup.sql
